@@ -1,0 +1,384 @@
+#Main parameters for pipette simulation
+#Experiment 1 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  50
+total_time          12000.0
+external_pressure   2.0
+box_lateral_size    6
+dt                  0.01
+k                   20    # Spring constant
+ka                  0.3   # Area force constant
+R0                  1.0   # Equilibrium distance between particles
+k_adhesion          3.0   # Adhesion constant for the linear attraction
+k_core              20.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5     # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1     # Use 1 to save png images
+continue_simu       0     # 0-start new, 1-continue
+Ndt                 1000  # Number of time steps for measurings the system
+
+
+#Experiment 2 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          2.0   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 3 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          1.0   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 4 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          0.5   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 5 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          1.5   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 6 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          0.2   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 7 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          0.4   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 8 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          0.6   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 9 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          0.8   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 10 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          1.2   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 11 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          1.4   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 12 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          1.6   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 13 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          1.8   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 14 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          0.1   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 15 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          0.3   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 16 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          0.7   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 17 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          0.9   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 18 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          1.1   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 19 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          1.3   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 20 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          1.7   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+#Experiment 21 #################################################################
+n_circles_of_rings  12   #number of circles of rings 
+particles_per_ring  30 
+total_time          12000.0	
+external_pressure   2.0
+box_lateral_size    7
+dt                  0.01
+k                   20    #Spring constant
+ka                  0.3    #Area force constant
+R0                  1.0   #Equilibrium distance between particles
+k_adhesion          1.9   # Adhesion constant for the linear attraction
+k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+pipette_width       5 # In number of ring diameters
+p0                  3.545 # 3.7 # 3.545 is for a circle
+save_fig            1 # Use 1 to save png images
+continue_simu       0 #0-start new, 1-continue
+Ndt                 1000 #Number of time steps for measurings the system
+
+
+
+
+
+
+
+# #Experiment 0 #################################################################
+# n_circles_of_rings  12   #number of circles of rings 
+# particles_per_ring  30 
+# total_time          1000.0	
+# external_pressure   1.0
+# box_lateral_size    7
+# dt                  0.01
+# k                   20    #Spring constant
+# ka                  0.3    #Area force constant
+# R0                  1.0   #Equilibrium distance between particles
+# k_adhesion          0.0   # Adhesion constant for the linear attraction
+# k_core              30.0  # Repulsion between non-neighbor particles below R0 distance
+# pipette_width       5 # In number of ring diameters
+# p0                  3.545 # 3.7 # 3.545 is for a circle
+# save_fig            1 # Use 1 to save png images
+# continue_simu       0 #0-start new, 1-continue
+# Ndt                 100 #Number of time steps for measurings the system
